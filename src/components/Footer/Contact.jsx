@@ -20,7 +20,7 @@ const Contact = () => {
               <Button
                 variant="outline-light"
                 size="lg"
-                href="https://gtech29.github.io/Juan_Rodriguez.github.io/"
+                href="mailto:juan.rodriguez.517@my.csun.edu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="my-3"
