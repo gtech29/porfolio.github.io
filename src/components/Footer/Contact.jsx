@@ -8,11 +8,12 @@ const Contact = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <h5>Get in Touch</h5>
-            <p>
+            {/* <h5>Get in Touch</h5> */}
+            <h5>
               If you&apos;d like to get in contact with me, please do not
               hesitate to email me!
-            </p>
+            </h5>
+
             <Form>
               {/* <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter your email" />
