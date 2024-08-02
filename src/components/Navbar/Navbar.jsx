@@ -44,7 +44,7 @@ function Navigation() {
             <Nav.Link href="https://www.linkedin.com/in/juan-rodriguez-26b39427a/">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </Nav.Link>
-            <Nav.Link href="#">
+            <Nav.Link href="mailto: juan.rodriguez.517@my.csun.edu">
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
             </Nav.Link>
           </Nav>
