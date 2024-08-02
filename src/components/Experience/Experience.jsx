@@ -25,7 +25,7 @@ export default function Experience() {
             contribute to your next big idea.
           </p>
           <div className="button-container">
-            <Button href="#" className="contact-button">
+            <Button href="mailto: juan.rodriguez.517@my.csun.edu" className="contact-button">
               Get in Touch!
             </Button>
           </div>

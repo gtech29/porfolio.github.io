@@ -79,7 +79,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Get in Touch!
+                    Learn More
                   </Button>
                 </div>
               </Card.Body>
