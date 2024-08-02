@@ -1,0 +1,52 @@
+:root {
+  --main-color: #4aa8f4;
+  --font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-section {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom right, rgba(173, 216, 230, 0.8), rgba(70, 130, 180, 0.8));
+}
+
+.hero-section h1,
+.hero-section h4,
+.hero-section p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: var(--font-family);
+  color: white;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgba(173, 216, 230, 0.8), rgba(70, 130, 180, 0.8));
+  opacity: 0.05;
+  z-index: -1;
+}
+
+@media (min-width: 769px) {
+  .hero-section {
+    background: linear-gradient(to bottom right, rgba(173, 216, 230, 0.8), rgba(70, 130, 180, 0.8));
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
