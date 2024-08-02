@@ -14,9 +14,9 @@ const Contact = () => {
               below:
             </p>
             <Form>
-              <Form.Group controlId="formBasicEmail">
+              {/* <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter your email" />
-              </Form.Group>
+              </Form.Group> */}
               <Button
                 variant="outline-light"
                 size="lg"
@@ -25,7 +25,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="my-3"
               >
-                Submit
+                Get in Touch
               </Button>
             </Form>
           </Col>
