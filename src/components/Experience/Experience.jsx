@@ -9,7 +9,7 @@ export default function Experience() {
     <div className="experience-container mx-auto" id="experience" >
       <Container>
         <div className="about-me p-4 shadow-4 rounded-3 blurred-border">
-          <MDBTypography tag="h2" >Welcome to my site!</MDBTypography>
+          <MDBTypography tag="h2" className="text-center" >Welcome to my site!</MDBTypography>
           <p>
             I am a results-oriented individual with a track record of deploying
             scalable solutions that drive innovation and efficiency. My
